@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="page">
+            <section class="page__info info-page">
+                <div class="info-page__container">
+                    <div class="info-page__body body-info-page">
+                        <div class="body-info-page__content">
+                            <h2 class="body-info-page__subtitle subtitle">Завідувач кафедри комп’ютерних наук та інженерії програмного забезпечення</h2>
+                            <h1 class="body-info-page__title title">Ульяновська Юлія Вікторівна</h1>
+                            <p class="body-info-page__text text">
+                                Кандидат технічних наук, доцент
+                                <br>
+                                <strong>
+                                    <em>
+                                        kafedra.kn.ta.ipz@gmail.com
+                                    </em>
+                                </strong>
+                            </p>
+                            <a href="https://drive.google.com/file/d/1tN9gdLR_fwHVOYl7VIVP9bo-tgo1oNjH/view" target="_blank" class="body-info-page__link link">
+                                <strong>
+                                    <em>
+                                        Положення про кафедру
+                                    </em>
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="body-info-page__image">
+                            <img src="./img/ulyanovska.jpeg" alt="Image teacher">
+                        </div>
+                    </div>
+                    <p class="info-page__text text">
+                        Кафедра є випускною за спеціальностями 121 «Інженерія програмного забезпечення» та 122 «Комп’ютерні науки» (денна та заочна форми навчання, освітні ступені «Бакалавр», «Магістр»).
+                        <br><br>
+                        Кафедра налічує 12 викладачів, серед них – 1 доктор наук, 8 кандидатів наук, 2 старших викладача, 1 викладач.
+                    </p>
+                    <h2 class="info-page__subtitle subtitle">Перелік замовників:</h2>
+                    <ul class="info-page__list">
+                        <li class="info-page__item">Державна митна служба України</li>
+                        <li class="info-page__item">Підприємства та організації - державні, комерційні та приватні фірмі і підприємства, які займаються розробкою та експлуатацією інформаційних систем</li>
+                    </ul>
+                    <p class="info-page__text"><strong>Контакти:</strong> м. Дніпро, вул. В. Вернадського, 2/4, каб.№423; тел. 756-05-60</p>
+                    <a href="#" class="info-page__link link subtitle">Facebook</a>
+                </div>
+            </section>
+            <section class="page__activity activity-page">
+                <div class="activity-page__container">
+                    <div class="activity-page__column">
+                        <div class="activity-page__menu menu-activity-page">
+
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Освітня діяльність</h3>
+                                <div class="menu-activity-page__row">
+                                    <h2 class="menu-activity-page__title subtitle">ОПП «Інженерія програмного забезпечення» (121) МАГІСТР</h2>
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Освітньо-професійні програми</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Навчальні плани</a></li>
+                                        <li class="menu-activity-page__item">Каталог дисциплін: <a href="#" class="menu-activity-page__link link">Обов’язкові/Вибіркові</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Програми практик</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Кваліфікаційна робота/Теми кваліфікаційних робіт</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Рецензії</a></li>
+                                    </ul>
+                                    <h2 class="menu-activity-page__title subtitle">ОПП «Комп’ютерні науки» (122) Магістр</h2>
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Освітньо-професійні програми</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Навчальні плани</a></li>
+                                        <li class="menu-activity-page__item">Каталог дисциплін: <a href="#" class="menu-activity-page__link link">Обов’язкові/Вибіркові</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Програми практик</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Кваліфікаційна робота/Теми кваліфікаційних робіт</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Рецензії</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Сертифікати акредитації</a></li>
+                                    </ul>
+                                    <h2 class="menu-activity-page__title subtitle">ОПП «Інженерія програмного забезпечення» (121) БАКАЛАВР</h2>
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Освітньо-професійні програми</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Навчальні плани</a></li>
+                                        <li class="menu-activity-page__item">Каталог дисциплін: <a href="#" class="menu-activity-page__link link">Обов’язкові/Вибіркові</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Програми практик</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Кваліфікаційна робота/Теми кваліфікаційних робіт</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Рецензії</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Сертифікати акредитації</a></li>
+                                    </ul>
+                                    <h2 class="menu-activity-page__title subtitle">ОПП «Комп’ютерні науки» (122) БАКАЛАВР</h2>
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Освітньо-професійні програми</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Навчальні плани</a></li>
+                                        <li class="menu-activity-page__item">Каталог дисциплін: <a href="#" class="menu-activity-page__link link">Обов’язкові/Вибіркові</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Програми практик</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Кваліфікаційна робота/Теми кваліфікаційних робіт</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Рецензії</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Сертифікати акредитації</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Комплексний державний екзамен</a></li>
+                                    </ul>
+                                    <h2 class="menu-activity-page__title subtitle"><a href="#" class="link">Неформальна освіта</a></h2>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Наукова діяльність</h3>
+                                <div class="menu-activity-page__row">
+                                    <p class="menu-activity-page__text">На кафедрі проводиться дослідження за науковою темою «Науково-методологічні основи математичного та комп’ютерного моделювання процесів контролю та управління в умовах виникнення надзвичайних ситуацій», № держреєстрації 0120U101537 – Керівник – доктор технічних наук Яковенко Вадим Олександрович. Головна мета - виконати обґрунтування критерію оптимізації управління конфігурацією хмарних інфраструктур для здійснення митного контролю на основі комплексного використання удосконалених моделей надійності та доступності хмарних сервісів. У розробці цієї теми беруть участь як співробітники кафедри, так і студенти факультету – члени студентського наукового гуртка.</p>
+                                    <h3 class="subtitle"><a href="#" class="menu-activity-page__link link">Науково-дослідна робота кафедри</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Колектив кафедри</h3>
+                                <div class="menu-activity-page__row">
+                                    <div class="menu-activity-page__net net-activity-page">
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Яковенко Тетяна Юріївна</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Рябоволенко Владислав Анатолійович</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Фірсов Олександр Дмитрович</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Булгакова Ольга Федорівна</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Чупілко Тетяна Анатоліївна</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Рудянова Тетяна Миколаївна</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Мормуль Микола Федорович</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Костенко Вікторія Вікторівна</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Мала Юлія Анатоліївна</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Яковенко Вадим Олександрович</a></h3>
+                                        <h3 class="subtitle"><a href="#" class="net-activity-page__link link">Ульяновська Юлія Вікторівна</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Результати опитувань</h3>
+                                <div class="menu-activity-page__row">
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Факультет інноваційних технологій</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Освітня програма “Комп'ютерні науки”</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Освітня програма “Інженерія програмного забезпечення”</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Опитування роботодавців</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Громадське обговорення ОП: пропозиції та відгуки</h3>
+                                <div class="menu-activity-page__row">
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><p class="menu-activity-page__text">Пропонуємо для громадського обговорення проєкт <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link link">Освітньо-професійної програми «ІНЖЕНЕРІЯ ПРОГРАМНОГО ЗАБЕЗПЕЧЕННЯ» (рівень перший (бакалаврський).</a href="#" class="menu-activity-page__link--bolt menu-activity-page__link"> Зауваження і пропозиції надсилати на електронну адресу <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link">kafedra.kn.ta.ipz@gmail.com</a></p></li>
+                                        <li class="menu-activity-page__item"><p class="menu-activity-page__text">Пропонуємо для громадського обговорення проєкт <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link link">Освітньо-професійної програми «ІНЖЕНЕРІЯ ПРОГРАМНОГО ЗАБЕЗПЕЧЕННЯ» (рівень другий (магістерський).</a href="#" class="menu-activity-page__link--bolt menu-activity-page__link"> Зауваження і пропозиції надсилати на електронну адресу <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link">kafedra.kn.ta.ipz@gmail.com</a></p></li>
+                                        <li class="menu-activity-page__item"><p class="menu-activity-page__text">Пропонуємо для громадського обговорення проєкт <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link link">Освітньо-професійної програми «Комп'ютерні науки» (рівень другий (магістерський).</a> Зауваження і пропозиції надсилати на електронну адресу <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link">kafedra.kn.ta.ipz@gmail.com</a></p></li>
+                                        <li class="menu-activity-page__item"><p class="menu-activity-page__text">Пропонуємо для громадського обговорення проєкт <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link link">Освітньо-професійної програми «Комп'ютерні науки» (рівень перший (бакалаврський).</a> Зауваження і пропозиції надсилати на електронну адресу <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link">kafedra.kn.ta.ipz@gmail.com</a></p></li>
+                                        <li class="menu-activity-page__item"><p class="menu-activity-page__text">Пропонуємо для громадського обговорення проєкт <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link link">Освітньо-професійної програми «Графічний дизайн» (рівень перший (бакалаврський).</a> Зауваження і пропозиції надсилати на електронну адресу <a href="#" class="menu-activity-page__link--bolt menu-activity-page__link">kafedra.kn.ta.ipz@gmail.com</a></p></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Випускники кафедри</h3>
+                                <div class="menu-activity-page__row">
+                                    <h2 class="menu-activity-page__title subtitle"><a href="#" class="menu-activity-page__link subtitle link">Ми пишаємось ними</a></h2>
+                                </div>
+                            </div>
+
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Організаційні документи</h3>
+                                <div class="menu-activity-page__row">
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Положення про кафедру комп'ютерних наук та інженерії програмного забезпечення</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Положення про факультет інноваційних технологій</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Регламент роботи</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Графік консультацій</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="menu-activity-page__body">
+                                <h3 class="menu-activity-page__subtitle" onclick="showList(this)">Співпраця зі стейкхолдерами</h3>
+                                <div class="menu-activity-page__row">
+                                    <h2 class="menu-activity-page__title subtitle">ПОДІЇ У КОНТЕКСТІ РЕАЛІЗАЦІЇ ОПП:</h2>
+                                    <ul class="menu-activity-page__list">
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Інженерія програмного забезпечення (121)</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">Комп’ютерні науки (122)</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">ФОРМУВАННЯ SOFT SKILLS У ЗДОБУВАЧІВ ВИЩОЇ ОСВІТИ</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">ВІДГУКИ</a></li>
+                                        <li class="menu-activity-page__item"><a href="#" class="menu-activity-page__link link">ДОГОВОРИ ПРО СПІВПРАЦЮ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__partners partners-page">
+                <div class="partners-page__container">
+                    <h1 class="partners-page__title title">Наші партнери</h1>
+                    <div class="partners-page__body">
+                        <div class="partners-page__image">
+                            <img src="./img/rubygarage.png" alt="Image partenr">
+                        </div>
+                        <div class="partners-page__image">
+                            <img src="./img/softserve.png" alt="Image partenr">
+                        </div>
+                        <div class="partners-page__image">
+                            <img src="./img/epam.jpeg" alt="Image partenr">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__news news-page">
+                <div class="news-page__container">
+                    <h1 class="news-page__title title">Новини кафедри</h1>
+                    <div class="news-page__net">
+                        
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/1.png" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text link-news-page--bolt text link">В рамках співпраці Центру інформаційних технологій з IT_dnipro Community пройшла міжрегіональна зустріч з представниками найбільшого банку та однією з найбільших компаній Європи – банку Credit Agricole Україна.</p>
+                            </a>
+                            <p class="news-page__date">30 травня 2023</p>
+                            <p class="news-page__text">На зустрічі були присутні провідні фахівці банку Credit Agricole Україна Олена Кузьміна, голова департаменту безпеки банку Credit Agricole Україна та Ольга Калініченко, головний експерт прямих продажі...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/2.png" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text link-news-page--bolt text link">З метою ознайомлення студентів із реальним життям спеціалістів в галузі ІТ студенти спеціальності 122 – комп’ютерні науки відвідали  онлайн-тур в дніпровський офіс компанії SoftServe</p>
+                            </a>
+                            <p class="news-page__date">30 травня 2023</p>
+                            <p class="news-page__text">який був організований нашими партнерами IT_dnipro Community. Спікери компанії: Тарас Ніколаєв - Координатор та ментор SoftServe Academy Соболєва Оксана - Senior Employer Brand Manager  провели конфер...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/3.jpeg" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text text link">Зв'язок навчання та практики є важливим етапом в навчанні.</p>
+                            </a>
+                            <p class="news-page__date">18 травня 2023</p>
+                            <p class="news-page__text">З метою ознайомлення здобувачів вищої освіти з втіленням теоретичних положень в практику ми залучаємо фахівців з досвідом практичної роботи до аудиторних занять. Так 15 травня 2023 в рамках дисципліни...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/4.png" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text text link">8 травня 2023 р. в рамках роботи центру інформаційних технологій відбулась онлайн-зустріч з представниками ІТ компанії Zone3000</p>
+                            </a>
+                            <p class="news-page__date">15 травня 2023</p>
+                            <p class="news-page__text">8 травня 2023 р. в рамках роботи центру інформаційних технологій за сприяння Центру кар’єри Університету митної справи  та фінансів відбулась онлайн-зустріч з представниками ІТ компанії Zone3000.Для с...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/5.jpeg" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text text link">Лекція співробітниками компанії Pushka Studios для студентів спеціальності 121 – інженерія програмного забезпечення.</p>
+                            </a>
+                            <p class="news-page__date">02 травня 2023</p>
+                            <p class="news-page__text">Кафедра Комп’ютерних наук та інженерії програмного забезпечення активно працює в напрямку актуалізації підготовки здобувачів вищої освіти. Одним з напрямків цієї діяльності є залучення фахівців з досв...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/6.jpeg" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text text link">Лекція співробітниками компанії Pushka Studios для студентів спеціальності 122- комп'ютерні науки</p>
+                            </a>
+                            <p class="news-page__date">01 травня 2023</p>
+                            <p class="news-page__text">Актуалізація підготовки здобувачів вищої освіти у відповідності до сучасних напрямків ІТ галузі є важливою складовою навчального процесу. З цією метою кафедра Комп’ютерних наук та інженерії програмног...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/7.png" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text text link">Лекція співробітниками компанії Yalantis для спеціальності 122 "Комп'ютерні науки" на тему: «Еволюція WEB-розробки»</p>
+                            </a>
+                            <p class="news-page__date">25 квітня 2023</p>
+                            <p class="news-page__text">Важливим аспектом навчального процесу на кафедрі комп’ютерних наук та інженерії програмного забезпечення є залучення фахівців з досвідом практичної роботи в галузі ІТ технологій до аудиторних занять. ...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/8.jpeg" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text text link">SoftServe проводить Teachers' Community Gathering для викладачів ІТ галузі з метою співпраці та поліпшення якості освіти</p>
+                            </a>
+                            <p class="news-page__date">24 квітня 2023</p>
+                            <p class="news-page__text">Надання якісної актуальної освіти в умовах сьогодення не можливо без співпраці з провідними ІТ компаніями. Для ознайомлення з можливостями співпраці та пропозиціями з боку роботодавців завідувач...</p>
+                        </div>
+
+                        <div class="news-page__column">
+                            <a href="#" class="news-page__link link-news-page">
+                                <div class="link-news-page__image">
+                                    <img src="./img/news__net/9.jpeg" alt="Image news">
+                                </div>
+                                <p class="link-news-page__text text link">Студенти спеціальностей 121 - Інженерія програмного забезпечення та 122 - Комп'ютерні науки відвідали офіс компанії ЕРАМ Україна у Дніпрі.</p>
+                            </a>
+                            <p class="news-page__date">10 квітня 2023</p>
+                            <p class="news-page__text">Студенти спеціальностей 121 - Інженерія програмного забезпечення та 122 - Комп'ютерні науки відвідали офіс компанії ЕРАМ Україна у Дніпрі. Екскурсія відбулась завдяки укладеному раніше меморандуму про...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__grid">
+                    <div class="footer__body">
+                        <p class="footer__text footer__text--bolt">Сторінка Центру кар'єри</p>
+                        <p class="footer__text footer__text--bolt">УМСФ:<a class="footer__link link">Facebook</a></p>
+                        <p class="footer__text footer__text--bolt">Сторінка міжнародного відділу УМСФ:<a href="#" class="footer__link link"> Facebook,</a> <a href="#" class="footer__link link">Instagram</a></p>
+                        <a href="#" class="footer__link link">Курси підвищення кваліфікації УМСФ</a>
+                        <a href="#" class="footer__link footer__link--italic link">Науковий ліцей міжнародних відносин ІІ-ІІІ ступенів</a>
+                        <a href="#" class="footer__link footer__link--italic link">Ліцей Митно-податкової Справи З Посиленою Військово-фізичною Підготовкою при УМСФ</a> 
+                        <a href="#" class="footer__link footer__link--italic link">Комунальний Заклад Освіти "Міський Юридичний Ліцей Наукового Спрямування при Університеті Митної Справи та Фінансів" Дніпровської Міської Ради</a>
+                        <a href="#" class="footer__link footer__link--italic link">Комунальний Заклад Освіти «Фінансово-економічний Ліцей Наукового Спрямування при Університеті Митної Справи та Фінансів» Дніпровської Міської Ради</a>
+                    </div>
+                    <div class="footer__body">
+                        <p class="footer__title">АДРЕСА УНІВЕРСИТЕТУ</p>
+                        <br>
+                        <p>49000, м.Дніпро, <br>вул. Володимира Вернадського 2/4</p>
+                        <br>
+                        <p class="footer__text footer__text--bolt">Соціальні мережі:<br><a href="#" class="footer__link link">Instagram,</a><br><a href="#" class="footer__link link">Facebook</a></p>
+                    </div>
+                    <div class="footer__body">
+                        <p class="footer__text footer__text--bolt">Приймальна комісія:</p>
+                        <a href="#" class="footer__link link" href="#">(056) 756-05-00,</a>
+                        <br>
+                        <a href="#" class="footer__link link"href="#">(066) 510-01-35,</a>
+                        <br>
+                        <a href="#" class="footer__link link" href="#">(098) 451-01-82,</a>
+                        <p class="footer__text"><a href="#" class="footer__link link">(066) 356-91-63</a> (для пільгових категорій)</p>
+                        <p class="footer__text footer__text--bolt">Email:</p>
+                        <a href="#" class="footer__link link">umsf.pk@gmail.com</a>
+                        <a href="#" class="footer__link link">umsf.magistr2022@gmail.com</a>
+                        <br><br>
+                        <p class="footer__text footer__text--bolt">Приймальня ректора: </p>
+                        <a href="#" class="footer__link link" href="#">(056) 745-55-96</a>
+                        <p class="footer__text footer__text--bolt">Email:</p>
+                        <a href="#" class="footer__link link">university.msf@gmail.com</a>
+                        <a href="#" class="footer__link link">academy@umsf.dp.ua</a>
+                        <br><br>
+                        <p class="footer__text footer__text--bolt">Телефон довіри уповноваженої особи по боротьбі з корупцією:</p>
+                        <a href="#" class="footer__link link">(056) 756-05-45</a>
+                    </div>
+                    <div class="footer__body">
+                        <p class="footer__title">РЕКВІЗИТИ ДЛЯ ОПЛАТИ:</p>
+                        <br><br>
+                        <p class="footer__text footer__text--bolt">Рахунок – <br>UA858201720313281001201089328</p>
+                        <p class="footer__text">ДКСУ м. Київ<br>
+                            ЄДРПОУ 39568620 <br>
+                            оплата за навчання на контрактній основі, за навчання на  військовій кафедрі, курси довузівської підготовки, факультативи
+                        </p>
+                        <br><br>
+                        <p class="footer__text footer__text--bolt">Рахунок – <br>UA868201720313251001202089328</p>
+                        <p class="footer__text">ДКСУ м. Київ<br>
+                            ЄДРПОУ 39568620 <br>
+                            оплата за гуртожиток
+                        </p>
+
+                    </div>
+                </div>
+                <div class="footer__copyright">© 2023 Університет митної справи та фінансів. Всі права захищені</div>
+            </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./DOMElements.js"></script>
+</body>
+</html>
